@@ -1,0 +1,19 @@
+@import "generales";
+
+.texto--negrita {
+  font-weight: bold;
+}
+.foto_logo--contact {
+  border-radius: 100%;
+}
+
+.container--contact {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .foto_logo--contact {
+    width: 0%;
+  }
+}

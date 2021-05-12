@@ -1,0 +1,29 @@
+@import "generales";
+
+.card-header {
+  width: 700px;
+  text-align: center;
+  padding: 10px 1.25rem;
+  margin: 5px;
+  background-color: #7763281a;
+}
+
+.card-body--faq {
+  width: 700px;
+}
+
+.btn-link {
+  font-weight: 600;
+  color: $colorTituloResaltado;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-header {
+    width: 300px;
+  }
+  .card-body--faq {
+    width: 300px;
+  }
+}

@@ -1,0 +1,55 @@
+@import "generales";
+
+.body--index {
+  background-color: black;
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+}
+
+.div--index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tituloPrincipal--index {
+  font-family: "Train One", cursive;
+  letter-spacing: 4px;
+  font-size: 200%;
+  font-weight: 100;
+  color: $colorTituloResaltado;
+}
+
+.img--index {
+  width: 30%;
+}
+
+.button--index {
+  background-color: transparent;
+  padding: 0.5em 0.5em;
+  transition: all 0.25s;
+  font-size: 15px;
+  border-radius: 3px;
+  a {
+    color: gray;
+    font-weight: bold;
+  }
+}
+.button--index:hover {
+  border-color: $colorLetraNormal;
+  transform: translateY(-8px);
+  box-shadow: 0 0.5em 0.5em -0.4em $colorLetraNormal;
+}
+a:hover {
+  color: $colorTituloResaltado;
+}
+
+@media only screen and (max-width: 768px) {
+  .tituloPrincipal--index {
+    font-size: 150%;
+    text-align: center;
+  }
+  .img--index {
+    width: 90%;
+  }
+}
