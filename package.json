@@ -1,7 +1,6 @@
 {
   "name": "copia",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
@@ -14,5 +13,14 @@
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/undynx/MovRoller.git"
+  },
+  "bugs": {
+    "url": "https://github.com/undynx/MovRoller/issues"
+  },
+  "homepage": "https://github.com/undynx/MovRoller#readme",
+  "description": ""
 }
