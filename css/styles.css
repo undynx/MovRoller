@@ -190,9 +190,17 @@ a {
   background-color: transparent !important;
 }
 
+a:hover {
+  color: goldenrod !important;
+}
+
 /* menu hamb */
 .navbar-toggler {
   background-color: #1f2021;
+}
+
+.navbar-toggler-icon {
+  width: 20px;
 }
 
 /* FOOTER */
@@ -287,6 +295,11 @@ a {
     padding-bottom: 5px;
   }
 
+  /* nosotras */
+  .texto--centrado {
+    text-align: center !important;
+  }
+
   /* faq */
   .card-header {
     width: 350px;
@@ -294,10 +307,13 @@ a {
   .card-body--faq {
     width: 350px;
   }
+  #accordion {
+    padding-top: 20px;
+  }
 
   /* contact */
-  p .texto--negrita {
-    padding-bottom: 20px;
+  .texto_contact {
+    padding-top: 20px;
   }
   .formContacto {
     padding-right: 5px;
