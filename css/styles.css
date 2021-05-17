@@ -133,6 +133,15 @@ a:hover {
   align-items: center;
 }
 
+/* CAROUSEL */
+#carouselExampleControls {
+  display: flex;
+  justify-content: center;
+}
+.carousel-inner {
+  width: 750px;
+}
+
 /* GENERALES */
 .body--inside {
   background: linear-gradient(to bottom, black, #605c55);
@@ -148,7 +157,7 @@ a:hover {
 .subtitulo {
   font-family: "Spartan", sans-serif;
   font-weight: 500;
-  color: #7b6839;
+  color: darkgoldenrod;
 }
 
 .texto--normal {
