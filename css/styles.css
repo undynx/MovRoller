@@ -1,7 +1,7 @@
 .body--index {
-  background-color: black;
   display: grid;
   grid-template-rows: 1fr 3fr 1fr;
+  background-color: black;
 }
 
 .div--index {
@@ -144,7 +144,7 @@ a:hover {
 
 /* GENERALES */
 .body--inside {
-  background: linear-gradient(to bottom, black, #605c55);
+  background: linear-gradient(to bottom, black, #43403c 92%, #1b1a1a);
 }
 
 .tituloPrincipal {
@@ -205,7 +205,7 @@ a:hover {
 
 /* menu hamb */
 .navbar-toggler {
-  background-color: #1f2021;
+  background-color: #fab60c3b;
 }
 
 .navbar-toggler-icon {
@@ -233,7 +233,7 @@ a:hover {
   width: 100%;
   height: 4rem;
   padding: 10px;
-  color: #3b3a3a;
+  color: darkgoldenrod;
   display: flex;
   text-align: center;
 }
@@ -243,6 +243,20 @@ a:hover {
   padding-bottom: 0px;
   padding-top: 5px;
   margin: 0;
+}
+
+/* contacto */
+.formContacto {
+  width: 400px;
+}
+.form--padding {
+  padding-right: 10px;
+}
+select {
+  width: 188px;
+}
+textarea {
+  width: 400px;
 }
 
 /* MEDIAS QUERIE GRALES*/
@@ -325,7 +339,11 @@ a:hover {
     padding-top: 20px;
   }
   .formContacto {
-    padding-right: 5px;
-    padding-left: 5px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  textarea {
+    width: 100%;
   }
 }
